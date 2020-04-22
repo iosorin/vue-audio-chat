@@ -20,5 +20,5 @@ npm run build
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Gh-pages
+https://osorina.github.io/vue-audio-chat/index.html#/
