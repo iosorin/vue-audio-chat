@@ -1,4 +1,4 @@
-# v3
+# vue-audio-chat
 
 ## Project setup
 ```
