@@ -27,11 +27,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/osorina/vue-audio-chat.git"
+    "url": "git+https://github.com/osorina/bla.git"
   },
-  "homepage": "https://github.com/osorina/vue-audio-chat",
+  "homepage": "https://github.com/osorina/bla",
   "vue": {
-    "publicPath": "/vue-audio-chat/"
+    "publicPath": "/bla/"
   },
   "eslintConfig": {
     "root": true,
