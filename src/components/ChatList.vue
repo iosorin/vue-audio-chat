@@ -27,6 +27,7 @@ export default {
   props: ["uid"],
   methods: {
     async createChatRoom() {
+      console.log("createChatRoom:");
       await db.collection("chats").add({
         createdAt: Date.now(),
         owner: this.uid,
