@@ -5,6 +5,7 @@ set -e
 
 # сборка
 npm run build
+npm run gh
 
 # переход в каталог сборки
 cd dist
@@ -12,13 +13,6 @@ cd dist
 # если вы публикуете на пользовательский домен
 # echo 'www.example.com' > CNAME
 
-hub init
-git add .
-git commit -m 'test'
-hub create bla
-
-git push -u origin master
-
-hub browse bla
+hub browse
 
 cd -
