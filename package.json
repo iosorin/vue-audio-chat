@@ -25,8 +25,13 @@
     "eslint-plugin-vue": "^6.2.2",
     "vue-template-compiler": "^2.6.11"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osorina/vue-audio-chat.git"
+  },
+  "homepage": "https://github.com/osorina/vue-audio-chat",
   "vue": {
-    "publicPath": "/test/"
+    "publicPath": "/vue-audio-chat/"
   },
   "eslintConfig": {
     "root": true,

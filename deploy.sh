@@ -12,6 +12,7 @@ cd dist
 # если вы публикуете на пользовательский домен
 # echo 'www.example.com' > CNAME
 
+git init
 git add -A
 git commit -m 'deploy'
 
@@ -19,6 +20,8 @@ git commit -m 'deploy'
 # git push -f git@github.com:osorina/osorina.github.io.git master
 
 # если вы публикуете по адресу https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:osorina/test.git master:gh-pages
+# git push -f git@github.com:osorina/test.git master:gh-pages
+git remote add origin https://github.com/osorina/vue-audio-chat.git
+git push -u origin master
 
 cd -

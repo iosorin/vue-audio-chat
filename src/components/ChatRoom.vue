@@ -10,7 +10,7 @@
       </ul>
       <input v-model="newMessageText" type="text" />
 
-      <h5>Record audio</h5>
+      <h5>Record audio)</h5>
 
       <button v-if="!recorder" @click="record()">Record</button>
       <button v-else @click="stop()">Stop</button>
